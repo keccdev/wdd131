@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding-top: 60px;
+}
+
+nav {
+    background-color: #000;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    flex-grow: 3;
+    background-color: #ccc;
+    height: 450px;
+    text-align: start;
+}
+
+aside {
+    flex-grow: 1;
+    background-color: #fff; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 176px;
+}
